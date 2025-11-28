@@ -181,8 +181,8 @@ function App() {
               Stop burning cash on PPC. Start building an asset that generates leases organically.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button className="w-full sm:w-auto">Get A Quote</Button>
-              <Button variant="secondary" className="w-full sm:w-auto">Contact Sales</Button>
+              <Button className="w-full sm:w-auto" onClick={() => window.location.href = 'mailto:jack@lowvacancy.ca'}>Get A Quote</Button>
+              <Button variant="secondary" className="w-full sm:w-auto" onClick={() => window.location.href = 'mailto:jack@lowvacancy.ca'}>Contact Sales</Button>
             </div>
           </div>
         </section>
