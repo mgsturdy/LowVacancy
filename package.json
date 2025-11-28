@@ -8,7 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "type-check": "tsc --noEmit"   // optional: run only when you want to check types
-}
+},
   "dependencies": {
     "@google/genai": "*",
     "lucide-react": "^0.344.0",
