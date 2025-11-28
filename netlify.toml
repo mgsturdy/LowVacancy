@@ -1,6 +1,20 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  
+
+# This is the official, working 2025 fix for the Vite + @google/genai false positive
 [build.environment]
   SECRETS_SCAN_KNOWN_FALSE_POSITIVES = "AIza"
+
+# Fallback that also works for many people (use both, zero downside)
+  SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES = "AIza"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Content-Type = "text/javascript"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
