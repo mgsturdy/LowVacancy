@@ -50,14 +50,15 @@ const Hero: React.FC = () => (
   <header className="relative pt-32 pb-20 px-6 md:pt-48 md:pb-32 overflow-hidden">
     <div className="max-w-7xl mx-auto relative z-10">
       <div className="inline-block border border-safety/30 bg-safety/10 text-safety px-3 py-1 text-xs font-mono uppercase tracking-widest mb-6">
-        Lease-Up Specialists
+        New Build Specialists
       </div>
       <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white uppercase tracking-tighter leading-[0.9] mb-8">
-        Lease Up,<br />
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-industrial-500 to-industrial-200">Without the Chaos.</span>
+        0% Vacancy.<br />
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-industrial-500 to-industrial-200">100% Organic.</span>
       </h1>
       <p className="text-industrial-400 text-lg md:text-xl max-w-2xl leading-relaxed mb-10 border-l-4 border-industrial-700 pl-6">
-        Low Vacancy helps multifamily teams lease up faster with a simple lease acquisition system that turns inquiries into booked tours and signed leases. No expensive ads—just high-converting organic content placed exactly where your renters are scrolling.
+        We handle the entire lease acquisition lifecycle for property developers. 
+        No expensive ads. Just high-converting organic content placed exactly where your renters are scrolling.
       </p>
       <div className="flex flex-col md:flex-row gap-4">
         <Button onClick={() => document.getElementById('generator')?.scrollIntoView({ behavior: 'smooth' })}>
